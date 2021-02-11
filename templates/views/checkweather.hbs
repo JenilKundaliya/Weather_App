@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {{>header}}
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="container">
+        
+
+       
+        <div class="form">
+            <div class="left">
+            <div class="form-up">
+
+                <form action="#">
+                    <input type="text" placeholder="Enter the name of city" id="cityName" >
+                    <button class="btn search-btn" id="searchBtn">Search</button>
+                </form>
+            </div>
+
+            <div class="result">
+                <div class="result-up">
+
+                    <p id="cityVal">Enter the City Name</p>
+                </div>
+                <div class="result-down">
+                    <div id="weatherVal"><p id="outputpara">Get Output Here</p></div>
+                    <div id="weatherStatus"></div>
+                </div>
+            </div>
+         </div>
+          <div class="right">
+            <img src="../assets/images.jfif" alt="">
+          </div>
+        </div>
+       
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
