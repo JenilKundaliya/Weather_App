@@ -12,7 +12,7 @@ const getInfo = async(e)=>{
     else{
        
             try{
-                let url = `http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=193a1cac5ebe9a54b536b8e9b6c1e27f`
+                let url = `https://weather-app-by-jenil.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=193a1cac5ebe9a54b536b8e9b6c1e27f`
                 const response = await fetch(url);
                 const data = await response.json();
 
